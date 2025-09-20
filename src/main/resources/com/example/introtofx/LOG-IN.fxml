@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.introtofx.SignUpController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="247.0" style="-fx-background-color: #FED700;">
+         <children>
+            <ImageView fitHeight="168.0" fitWidth="159.0" layoutX="34.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@monitor.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="8.0" layoutY="294.0" text="WittCode@support.com">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="48.0" layoutY="248.0" text="(555) 555-5555">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="395.0">
+         <children>
+            <Label layoutX="29.0" layoutY="45.0" text="Username">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="30.0" layoutY="94.0" text="Password">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="42.0" layoutY="147.0" text="Favourite YouTube Channel">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="143.0" layoutY="39.0" prefHeight="34.0" prefWidth="210.0" />
+            <TextField fx:id="tf_password" layoutX="143.0" layoutY="88.0" prefHeight="34.0" prefWidth="210.0" />
+            <RadioButton fx:id="rb_wittcode" layoutX="134.0" layoutY="190.0" mnemonicParsing="false" text="WittCode">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="rb_sbelse" layoutX="134.0" layoutY="229.0" mnemonicParsing="false" text="Someone else">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+            </RadioButton>
+            <Button fx:id="btn_signup" layoutX="99.0" layoutY="279.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="190.0" style="-fx-background-color: #FED700;" text="Sign Up">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font></Button>
+            <Label layoutX="99.0" layoutY="346.0" text="Already a member?">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_login" layoutX="232.0" layoutY="341.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="66.0" style="-fx-background-color: Transparent;" text="Log In!" textFill="#2f37c9" underline="true">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </children>
+</HBox>
